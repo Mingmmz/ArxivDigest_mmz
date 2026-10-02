@@ -21,28 +21,111 @@ threshold: 7
 # This can be empty, which just return a full list of papers with no judgement or filtering,
 # in whatever order arXiv responds with.
 interest: |
-  I am interested in research on wearable computing, sensing systems,
-  human-computer interaction, and health sensing.
+  topic: "Computer Science"
 
-  High-interest topics include:
+categories:
+  - "Human-Computer Interaction"
+  - "Computer Vision and Pattern Recognition"
+  - "Robotics"
+  - "Artificial Intelligence"
+  - "Machine Learning"
 
-  1. Wearable sensing and wearable devices
-  2. Physiological sensing, including PPG, ECG, EMG, EIT, ultrasound,
-     photoacoustic sensing, respiration sensing, and cardiovascular sensing, etc.
-  3. Novel sensing modalities and multimodal sensing systems
-  4. Optical sensing, camera-based sensing, tactile sensing, and acoustic sensing
-  5. Wearable health monitoring and human activity recognition
-  6. Human-AI interaction for wearable and health applications
-  7. Adaptive sensing and intelligent sensing systems
-  8. Smart textiles, skin-interfaced electronics, and body-worn sensors
-  9. Haptics and wearable feedback systems
-  10. Ubiquitous computing systems involving sensing of human behavior
+threshold: 6
 
-  I prefer papers that contain a novel sensing technique, hardware system,
-  wearable form factor, interaction technique, or sensing application.
+interest: |
+  My primary research interests are wearable sensing, physiological sensing,
+  novel sensing systems, human-computer interaction, and interactive hardware.
+
+  HIGH PRIORITY:
+  Papers are highly relevant if they involve one or more of the following:
+
+  1. Wearable sensing and body-worn sensing systems
+     - wearable devices
+     - skin-interfaced sensors
+     - smart textiles
+     - rings, wristbands, patches, sleeves, glasses, earbuds, or other wearable form factors
+     - low-power or miniaturized sensing hardware
+
+  2. Physiological and health sensing
+     - respiration and airflow sensing
+     - cardiovascular and peripheral perfusion sensing
+     - PPG, ECG, EMG, EIT, bioimpedance
+     - ultrasound sensing
+     - photoacoustic sensing
+     - acoustic or vibration-based physiological sensing
+     - multimodal physiological sensing
+
+  3. Novel sensing modalities and sensing hardware
+     - optical sensing
+     - infrared, NIR, thermal, polarization, or multispectral sensing
+     - camera-based sensing
+     - acoustic and ultrasonic sensing
+     - photoacoustic sensing
+     - tactile sensing
+     - vision-based tactile sensing
+     - moire-based sensing
+     - magnetic, capacitive, electrical, or mechanical sensing
+     - unconventional sensing mechanisms or new sensor architectures
+
+  4. Human-computer interaction with sensing systems
+     - ubiquitous computing
+     - mobile and wearable computing
+     - sensing for human behavior or context
+     - interactive sensing systems
+     - human-centered sensing
+     - on-body interaction
+     - haptics and wearable feedback
+     - closed-loop sensing and actuation
+
+  5. Multimodal and adaptive sensing
+     - sensor fusion
+     - multimodal sensing
+     - adaptive sensing
+     - dynamically selecting sensing modalities
+     - context-aware sensing
+     - active sensing
+     - sensing systems that trade off accuracy, power, latency, and usability
+
+  MEDIUM PRIORITY:
+  I am also interested in papers that may inspire new wearable or HCI systems,
+  even if the paper itself is not explicitly about wearables.
+
+  Examples include:
+  - new optical, acoustic, ultrasonic, imaging, or material-based sensing methods
+  - compact sensing hardware that could potentially be miniaturized into a wearable
+  - new tactile sensing mechanisms
+  - new ways to infer human state, activity, physiology, or environment
+  - novel sensing-actuation combinations
+  - smart materials, soft sensors, and deformable sensors
+  - low-cost sensing toolkits and rapid-prototyping platforms
+  - sensing techniques that reveal information normally invisible to humans
+
+  HUMAN-AI INTERACTION:
+  I am interested in human-AI systems when AI is closely connected to sensing,
+  wearable devices, health data, or physical-world interaction.
+
+  Relevant examples include:
+  - AI interpretation of wearable or physiological sensing data
+  - human correction and verification of uncertain sensor inference
+  - AI systems that reason over multimodal sensor data
+  - adaptive AI systems that decide when or what to sense
+  - AI-assisted interpretation of novel sensing modalities
 
   I am less interested in:
-  - purely theoretical machine learning papers
-  - benchmark-only deep learning papers
-  - LLM papers without a sensing or human-computer interaction component
-  - purely medical diagnostic models without novel sensing or interaction
+  - purely theoretical machine learning
+  - papers focused only on improving model architecture or benchmark accuracy
+  - LLM papers with no connection to sensing, HCI, health, or physical interaction
+  - pure NLP, text generation, or information retrieval
+  - autonomous driving
+  - generic robotics planning or manipulation without a novel sensing component
+  - purely software-based computer vision with no sensing, interaction, or wearable relevance
+  - medical diagnosis papers that only apply an existing ML model to an existing dataset
+  - papers whose main contribution is a new neural network rather than a new sensing system,
+    interaction technique, dataset, hardware platform, or application
+
+  SERENDIPITY:
+  Do not be overly strict about matching exact keywords.
+  Give a reasonably high score to papers that introduce a novel sensing principle,
+  sensor design, physical phenomenon, wearable form factor, interactive system,
+  or sensing toolkit that could plausibly inspire future wearable or HCI research,
+  even if the authors use different terminology from the interests above.

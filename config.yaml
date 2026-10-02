@@ -3,7 +3,7 @@ topic: "Computer Science"
 # An empty list here will include all categories in a topic
 # Use the natural language names of the topics, found here: https://arxiv.org
 # Including more categories will result in more calls to the large language model
-categories: ["Artificial Intelligence", "Computation and Language"]
+categories: ["Artificial Intelligence", "Emerging Technologies", "Human-Computer Interaction", "Robotics"]
 
 # Relevance score threshold. abstracts that receive a score less than this from the large language model
 # will have their papers filtered out.
@@ -21,7 +21,28 @@ threshold: 7
 # This can be empty, which just return a full list of papers with no judgement or filtering,
 # in whatever order arXiv responds with.
 interest: |
-  1. Large language model pretraining and finetunings
-  2. Multimodal machine learning
-  3. Do not care about specific application, for example, information extraction, summarization, etc.
-  4. Not interested in paper focus on specific languages, e.g., Arabic, Chinese, etc.
+  I am interested in research on wearable computing, sensing systems,
+  human-computer interaction, and health sensing.
+
+  High-interest topics include:
+
+  1. Wearable sensing and wearable devices
+  2. Physiological sensing, including PPG, ECG, EMG, EIT, ultrasound,
+     photoacoustic sensing, respiration sensing, and cardiovascular sensing, etc.
+  3. Novel sensing modalities and multimodal sensing systems
+  4. Optical sensing, camera-based sensing, tactile sensing, and acoustic sensing
+  5. Wearable health monitoring and human activity recognition
+  6. Human-AI interaction for wearable and health applications
+  7. Adaptive sensing and intelligent sensing systems
+  8. Smart textiles, skin-interfaced electronics, and body-worn sensors
+  9. Haptics and wearable feedback systems
+  10. Ubiquitous computing systems involving sensing of human behavior
+
+  I prefer papers that contain a novel sensing technique, hardware system,
+  wearable form factor, interaction technique, or sensing application.
+
+  I am less interested in:
+  - purely theoretical machine learning papers
+  - benchmark-only deep learning papers
+  - LLM papers without a sensing or human-computer interaction component
+  - purely medical diagnostic models without novel sensing or interaction
